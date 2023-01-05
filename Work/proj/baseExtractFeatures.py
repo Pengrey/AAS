@@ -111,6 +111,10 @@ def main():
     
     print(features.shape)
         
+    # Given an array of size x, and another of 5+x, fill the remaining space in x with 0 so they're both x+5 in length
+    # np.pad(x, (0, 5+len(x)-len(x)), 'constant', constant_values=(0, 0))
+
+
 
 if __name__ == '__main__':
     main()
