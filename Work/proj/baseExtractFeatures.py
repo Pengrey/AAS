@@ -109,10 +109,12 @@ def main():
     print(features)
     np.savetxt(outfilename,features,fmt='%d')
     
-    print(features.shape)
+    print(features.shape) 
         
     # Given an array of size x, and another of 5+x, fill the remaining space in x with 0 so they're both x+5 in length
     # np.pad(x, (0, 5+len(x)-len(x)), 'constant', constant_values=(0, 0))
+
+    # 
 
 
 
